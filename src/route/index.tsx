@@ -1,8 +1,8 @@
 import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
 import { AuthContext } from "../contexts/authContext";
-import { AuthStackParamsList } from "../types/authStack";
-import { MainStackParamsList } from "../types/mainStack";
+import { AuthStackParamsList } from "../shared/types/authStack";
+import { MainStackParamsList } from "../shared/types/mainStack";
 import AuthStack from "./authStack";
 import MainStack from "./mainStack";
 

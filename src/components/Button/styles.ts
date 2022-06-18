@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components/native";
-import colors from "../../styles/colors";
+import colors from "../../shared/styles/colors";
 
-import { w } from "../../styles/responsive";
+import { w } from "../../shared/styles/responsive";
 
 const primary = css<{ disabled?: boolean }>`
 	background: ${({ disabled }) =>

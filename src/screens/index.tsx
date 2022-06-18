@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { StyleSheet, View } from "react-native";
 import * as Animatable from "react-native-animatable";
-import Colors from "../styles/colors";
+import Colors from "../shared/styles/colors";
 import HomeScreen from "./home";
 import ProfileScreen from "./Profile";
 

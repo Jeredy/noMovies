@@ -5,7 +5,7 @@ import { onboardingData } from "../../../constants/onboarding";
 import OnboardingItem from "./onboardingItem";
 
 import * as S from "./styles";
-import Colors from "../../../styles/colors";
+import Colors from "../../../shared/styles/colors";
 import { useNavigation } from "@react-navigation/native";
 import Button from "../../../components/Button";
 import PaginationComponent from "../../../components/Pagination";

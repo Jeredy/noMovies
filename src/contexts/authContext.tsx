@@ -1,7 +1,7 @@
 import React from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-import { AdminModel } from "../models/admin";
+import { AdminModel } from "../shared/models/admin";
 import api, { setAuthorization } from "../services/api/axios";
 
 import {
@@ -10,7 +10,7 @@ import {
 	LayoutProps,
 	PropsAction,
 	Types,
-} from "../types/authContext";
+} from "../shared/types/authContext";
 
 const INITIAL_STATE: PropsContext = {
 	admin: null,

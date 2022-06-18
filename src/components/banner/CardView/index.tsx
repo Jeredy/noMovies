@@ -1,7 +1,7 @@
 import * as React from "react";
 
-import { BannerModel } from "../../../models/banner";
-import colors from "../../../styles/colors";
+import { BannerModel } from "../../../shared/models/banner";
+import colors from "../../../shared/styles/colors";
 import ShadowComponent from "../../Shadow";
 import * as S from "./styles";
 

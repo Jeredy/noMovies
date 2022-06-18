@@ -1,9 +1,9 @@
 import styled from "styled-components/native";
 import { Dimensions } from "react-native";
-import { w, ww } from "../../styles/responsive";
+import { w, ww } from "../../shared/styles/responsive";
 import CheckSvg from "../../assets/icons/check.svg";
 import ErrorSvg from "../../assets/icons/error.svg";
-import colors from "../../styles/colors";
+import colors from "../../shared/styles/colors";
 
 export const Container = styled.TouchableOpacity.attrs({
 	activeOpacity: 1,

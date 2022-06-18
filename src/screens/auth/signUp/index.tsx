@@ -19,10 +19,10 @@ import {
 	ButtonContainer,
 	LogoImage,
 } from "./styles";
-import { ww } from "../../../styles/responsive";
+import { ww } from "../../../shared/styles/responsive";
 import { useNavigation } from "@react-navigation/native";
 import { formValues } from "./formValues";
-import Colors from "../../../styles/colors";
+import Colors from "../../../shared/styles/colors";
 import { Controller, useForm } from "react-hook-form";
 import { ISignUp } from "../../../shared/interfaces/auth";
 import { signUpSchema } from "../../../shared/schemas/signUp";

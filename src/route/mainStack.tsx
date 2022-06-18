@@ -5,7 +5,7 @@ import * as Animatable from "react-native-animatable";
 
 import Icon, { Icons } from "../components/icons";
 import Screens from "../screens";
-import colors from "../styles/colors";
+import colors from "../shared/styles/colors";
 
 const TabArr = [
 	{

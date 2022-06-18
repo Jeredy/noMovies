@@ -11,7 +11,7 @@
 import React from "react";
 import Routes from "./route";
 import { ThemeProvider } from "styled-components/native";
-import theme from "./styles/fonts";
+import theme from "./shared/styles/fonts";
 import { AuthProvider } from "./contexts/authContext";
 
 const App: React.FC = () => {

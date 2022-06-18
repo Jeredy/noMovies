@@ -14,6 +14,6 @@ export default {
 			primary: "#fff",
 			secondary: "#ffffffaa",
 		},
-		shadow: "00000044",
+		shadow: "#00000044",
 	},
 };

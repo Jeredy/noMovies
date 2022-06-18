@@ -1,6 +1,6 @@
 import React from "react";
 import { Pagination } from "react-native-snap-carousel";
-import Colors from "../../styles/colors";
+import Colors from "../../shared/styles/colors";
 
 interface PaginationpProps {
 	carouselItemsLength: number;

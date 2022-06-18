@@ -2,8 +2,8 @@ import * as React from "react";
 import Carousel from "react-native-snap-carousel";
 
 import { bannerItems } from "../../mockup/banner";
-import { BannerModel } from "../../models/banner";
-import { ww, width } from "../../styles/responsive";
+import { BannerModel } from "../../shared/models/banner";
+import { ww, width } from "../../shared/styles/responsive";
 
 import PaginationComponent from "../Pagination";
 import CardView from "./CardView";

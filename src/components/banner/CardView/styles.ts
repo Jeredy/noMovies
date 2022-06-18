@@ -1,6 +1,6 @@
 import LinearGradient from "react-native-linear-gradient";
 import styled from "styled-components/native";
-import { w, ww } from "../../../styles/responsive";
+import { w, ww } from "../../../shared/styles/responsive";
 
 export const Container = styled.View`
 	backgroundcolor: #fff;

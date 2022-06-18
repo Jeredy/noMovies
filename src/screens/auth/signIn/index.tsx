@@ -19,10 +19,10 @@ import {
 	ButtonContainer,
 	LogoImage,
 } from "./styles";
-import { ww } from "../../../styles/responsive";
+import { ww } from "../../../shared/styles/responsive";
 import { useNavigation } from "@react-navigation/native";
 import { formValues } from "./formValues";
-import Colors from "../../../styles/colors";
+import Colors from "../../../shared/styles/colors";
 import { Controller, useForm } from "react-hook-form";
 import { ISignIn } from "../../../shared/interfaces/auth";
 import { signInSchema } from "../../../shared/schemas/signIn";
@@ -98,13 +98,11 @@ const SignInForm: React.FC = () => {
 			</ButtonContainer>
 
 			<ButtonContainer>
-				<ShadowComponent>
-					<Button
-						title="Criar uma conta!"
-						type="ghost"
-						onPress={() => navigate("SignUp")}
-					/>
-				</ShadowComponent>
+				<Button
+					title="Criar uma conta!"
+					type="ghost"
+					onPress={() => navigate("SignUp")}
+				/>
 			</ButtonContainer>
 		</Container>
 	);

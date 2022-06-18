@@ -1,5 +1,5 @@
 import React from "react";
-import { OnboardingItemProps } from "../../../../types/onboarding";
+import { OnboardingItemProps } from "../../../../shared/types/onboarding";
 
 import { Container, Title, Description, Image, TextContainer } from "./styles";
 

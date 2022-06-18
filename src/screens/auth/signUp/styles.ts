@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
-import colors from "../../../styles/colors";
-import { w } from "../../../styles/responsive";
+import colors from "../../../shared/styles/colors";
+import { w } from "../../../shared/styles/responsive";
 
 export const Container = styled.SafeAreaView`
 	flex: 1;
