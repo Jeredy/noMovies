@@ -5,23 +5,28 @@ export default [
 		link: "",
 	},
 	{
-		id: "141234",
-		title: "Comedy",
-		link: "",
-	},
-	{
-		id: "12346",
-		title: "Animation",
-		link: "",
-	},
-	{
-		id: "1234634",
+		id: "123463",
 		title: "Action",
 		link: "",
 	},
 	{
-		id: "1234345",
-		title: "Horror",
+		id: "1234523",
+		title: "Science Fiction",
+		link: "",
+	},
+	{
+		id: "23452",
+		title: "Terror",
+		link: "",
+	},
+	{
+		id: "96074",
+		title: "Animation",
+		link: "",
+	},
+	{
+		id: "369235",
+		title: "Comedy",
 		link: "",
 	},
 ];

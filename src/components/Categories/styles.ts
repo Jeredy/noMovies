@@ -5,12 +5,12 @@ import { w } from "../../shared/styles/responsive";
 export const Container = styled.View`
 	flex: 1;
 	max-height: ${w(100)};
+	min-height: ${w(100)};
 	width: 100%;
 `;
 
 export const ItemContainer = styled.TouchableOpacity<{ selected: boolean }>`
 	flex: 1;
-	height: 70px;
 	min-width: 60px;
 	align-item: center;
 	justify-content: center;
