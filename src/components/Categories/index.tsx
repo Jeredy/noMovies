@@ -19,6 +19,9 @@ const CategoriesListComponent: React.FC = () => {
 				shadowColor={
 					data.id === selected ? colors.colors.shadow : "transparent"
 				}
+				/*eslint-disable*/
+				styles={{ marginTop: 2, marginBottom: 2 }}
+				/*eslint-enable*/
 			>
 				<S.ItemContainer
 					selected={data.id === selected}

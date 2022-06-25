@@ -10,7 +10,7 @@ import { InputContainer } from "../../screens/auth/signIn/styles";
 import { MoviesProps } from "../../shared/types/streaming";
 import * as S from "./styles";
 
-const HomeScreen = () => {
+const HomeComponent = () => {
 	const [data, setData] = React.useState<MoviesProps>();
 	const [search, setSearch] = React.useState("");
 
@@ -83,4 +83,4 @@ const HomeScreen = () => {
 	);
 };
 
-export default HomeScreen;
+export default HomeComponent;

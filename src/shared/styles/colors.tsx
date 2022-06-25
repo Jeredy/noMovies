@@ -14,6 +14,7 @@ export default {
 			primary: "#fff",
 			secondary: "#ffffffaa",
 		},
-		shadow: "#00000044",
+		shadow: "#3F3C5688",
+		border: "#dbe6e6",
 	},
 };

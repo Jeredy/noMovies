@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useNavigation } from "@react-navigation/native";
 
 import { BannerModel } from "../../../shared/models/banner";
 import colors from "../../../shared/styles/colors";
@@ -10,8 +11,14 @@ interface CardViewProps {
 }
 
 const CardView: React.FC<CardViewProps> = ({ item }) => {
+	// const { navigate } = useNavigation();
+
 	return (
-		<ShadowComponent shadowColor={colors.colors.shadow}>
+		<ShadowComponent
+			height={7}
+			shadowOpacity={0.6}
+			shadowColor={colors.colors.shadow}
+		>
 			<S.Container>
 				<S.LinearGradientContainer
 					colors={["#ffffff00", "#22222244", "#000000cc"]}

@@ -30,17 +30,16 @@ const BannerComponent = () => {
 				itemWidth={ww(320)}
 				inactiveSlideScale={0.95}
 				inactiveSlideOpacity={0.5}
-				enableMomentum={true}
+				// enableMomentum={true}
 				activeSlideAlignment={"start"}
 				containerCustomStyle={{ marginTop: 10, overflow: "visible" }}
 				contentContainerCustomStyle={{ paddingVertical: 10 }}
 				activeAnimationType={"spring"}
-				activeAnimationOptions={{
-					friction: 4,
-					tension: 40,
-				}}
+				// activeAnimationOptions={{
+				// 	friction: 4,
+				// 	tension: 40,
+				// }}
 				loop={true}
-				loopClonesPerSide={2}
 				autoplay={true}
 				autoplayDelay={500}
 				autoplayInterval={6000}

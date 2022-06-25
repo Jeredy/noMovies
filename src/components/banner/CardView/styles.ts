@@ -1,15 +1,20 @@
 import LinearGradient from "react-native-linear-gradient";
 import styled from "styled-components/native";
+import colors from "../../../shared/styles/colors";
 import { w, ww } from "../../../shared/styles/responsive";
 
-export const Container = styled.View`
+export const Container = styled.TouchableOpacity`
 	backgroundcolor: #fff;
 	border-radius: 16;
 	height: 200;
 	padding: 20px;
-	margin-top: 10;
 	justify-content: flex-end;
 	position: relative;
+`;
+
+export const OuterContainer = styled.View`
+	flex: 1;
+	padding: 20px;
 `;
 
 export const LinearGradientContainer = styled(LinearGradient)`

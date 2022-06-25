@@ -1,14 +1,21 @@
 import React from "react";
 import DropShadow from "react-native-drop-shadow";
+import colors from "../../shared/styles/colors";
 
 interface ShadowProps {
-	shadowColor: string;
+	shadowColor?: string;
 	children: React.ReactElement;
+	height?: number;
+	shadowOpacity?: number;
+	styles?: any;
 }
 
 export const ShadowComponent: React.FC<ShadowProps> = ({
 	children,
-	shadowColor,
+	shadowColor = colors.colors.shadow,
+	height = 2,
+	shadowOpacity = 0.4,
+	styles,
 }) => {
 	return (
 		/*eslint-disable*/
@@ -17,10 +24,11 @@ export const ShadowComponent: React.FC<ShadowProps> = ({
 				shadowColor,
 				shadowOffset: {
 					width: 1,
-					height: 2,
+					height,
 				},
-				shadowOpacity: 0.4,
+				shadowOpacity,
 				shadowRadius: 4,
+				...styles,
 			}}
 		>
 			{children}

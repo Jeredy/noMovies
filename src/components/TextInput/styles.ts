@@ -14,12 +14,11 @@ export const Container = styled.TouchableOpacity.attrs({
 	align-self: center;
 	flex-direction: row;
 	background: ${({ disabled }) =>
-		disabled ? "#F8FAFB" : colors.colors.terciary.background};
-	padding: ${w(0, 25)};
+		disabled ? "#F8FAFB" : colors.colors.white.primary};
+	padding: ${w(0, 20)};
 	height: ${w(50)};
 	border-radius: ${w(10)};
-	border-color: ${({ error }) =>
-		error ? "#D4145A" : colors.colors.terciary.border};
+	border-color: ${({ error }) => (error ? "#D4145A" : colors.colors.border)};
 	border-width: ${w(1)};
 	align-items: center;
 	justify-content: space-between;

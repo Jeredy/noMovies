@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { StyleSheet, View } from "react-native";
 import * as Animatable from "react-native-animatable";
+import HomeStack from "../route/homeStack";
 import Colors from "../shared/styles/colors";
 import HomeScreen from "./home";
 import ProfileScreen from "./Profile";
@@ -17,7 +18,7 @@ const Screens: React.FC<ColorScreenProps> = ({ route, navigation }) => {
 		/* eslint-disable */
 		switch (route.name) {
 			case "Home": {
-				return <HomeScreen />;
+				return <HomeStack />;
 			}
 			case "Profile": {
 				return <ProfileScreen />;

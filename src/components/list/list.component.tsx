@@ -1,14 +1,21 @@
+import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import { FlatList } from "react-native";
 import { MoviesProps } from "../../shared/types/streaming";
 import CardComponent from "../card/card.component";
-import { Container, Title, CardContainer } from "./list.styles";
+import * as S from "./list.styles";
 
 const ListComponent: React.FC<MoviesProps> = ({ title, data }) => {
+	const { navigate } = useNavigation();
 	return (
-		<Container>
-			<Title>{title}</Title>
-			<CardContainer>
+		<S.Container>
+			<S.TitleContainer>
+				<S.Title>{title}</S.Title>
+				<S.Touchable onPress={() => navigate("Streaming")}>
+					<S.SubTitle>See All</S.SubTitle>
+				</S.Touchable>
+			</S.TitleContainer>
+			<S.CardContainer>
 				<FlatList
 					data={data}
 					keyExtractor={(_, index) => String(index)}
@@ -23,8 +30,8 @@ const ListComponent: React.FC<MoviesProps> = ({ title, data }) => {
 					showsHorizontalScrollIndicator={false}
 					scrollEventThrottle={32}
 				/>
-			</CardContainer>
-		</Container>
+			</S.CardContainer>
+		</S.Container>
 	);
 };
 

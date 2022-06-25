@@ -9,16 +9,16 @@ export const Container = styled.View`
 
 export const CardContainer = styled.View`
 	display: flex;
-	width: ${w(110)};
-	height: ${w(144)};
+	width: ${w(125)};
+	height: ${w(165)};
 	border-radius: ${w(6)};
 	margin-left: ${w(15)};
 	margin-bottom: ${w(5.7)};
 `;
 
 export const Image = styled.Image`
-	width: ${w(110)};
-	height: ${w(144)};
+	width: ${w(125)};
+	height: ${w(165)};
 	border-radius: ${w(6)};
 `;
 
@@ -26,7 +26,9 @@ export const Text = styled.Text`
 	font-size: ${w(14)};
 	font-weight: 400;
 	margin-top: ${w(3)};
-	max-width: ${w(110)};
+	max-width: ${w(125)};
 	margin-left: ${w(15)};
 	color: ${colors.colors.text};
 `;
+
+export const Touchable = styled.TouchableOpacity``;

@@ -1,6 +1,6 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React, { useEffect, useRef } from "react";
-import { StyleSheet, TouchableOpacity } from "react-native";
+import { StyleSheet, TouchableOpacity, View } from "react-native";
 import * as Animatable from "react-native-animatable";
 
 import Icon, { Icons } from "../components/icons";
@@ -11,32 +11,32 @@ const TabArr = [
 	{
 		route: "Home",
 		label: "Home",
-		type: Icons.Ionicons,
+		type: Icons.AntDesign,
 		activeIcon: "home",
-		inActiveIcon: "home-outline",
+		inActiveIcon: "home",
 		component: Screens,
 	},
 	{
 		route: "Feeds",
 		label: "Like",
 		type: Icons.Ionicons,
-		activeIcon: "newspaper",
+		activeIcon: "newspaper-outline",
 		inActiveIcon: "newspaper-outline",
 		component: Screens,
 	},
 	{
 		route: "Like",
 		label: "Like",
-		type: Icons.MaterialCommunityIcons,
-		activeIcon: "heart",
-		inActiveIcon: "heart-outline",
+		type: Icons.AntDesign,
+		activeIcon: "hearto",
+		inActiveIcon: "hearto",
 		component: Screens,
 	},
 	{
 		route: "Profile",
 		label: "Profile",
 		type: Icons.Ionicons,
-		activeIcon: "ios-person",
+		activeIcon: "person-outline",
 		inActiveIcon: "person-outline",
 		component: Screens,
 	},
@@ -52,13 +52,13 @@ const TabButton = (props: any) => {
 	useEffect(() => {
 		if (focused) {
 			viewRef.current.animate({
-				0: { scale: 0.5, rotate: "0deg" },
-				1: { scale: 1.2, rotate: "360deg" },
+				0: { scale: 0.5 },
+				1: { scale: 1.2 },
 			});
 		} else {
 			viewRef.current.animate({
-				0: { scale: 1.2, rotate: "360deg" },
-				1: { scale: 1, rotate: "0deg" },
+				0: { scale: 1.2 },
+				1: { scale: 1 },
 			});
 		}
 	}, [focused]);
@@ -69,7 +69,7 @@ const TabButton = (props: any) => {
 			activeOpacity={1}
 			style={styles.touchable}
 		>
-			<Animatable.View ref={viewRef} duration={1000} style={styles.container}>
+			<Animatable.View ref={viewRef} duration={500} style={styles.container}>
 				<Icon
 					type={item.type}
 					name={focused ? item.activeIcon : item.inActiveIcon}
@@ -81,23 +81,19 @@ const TabButton = (props: any) => {
 	);
 };
 
-export default function AnimTab1() {
+export default function TabNavigation() {
 	return (
 		<Tab.Navigator
 			screenOptions={{
 				headerShown: false,
 				tabBarStyle: {
 					position: "absolute",
-					height: 60,
-					bottom: 20,
-					right: 20,
-					left: 20,
-					borderRadius: 16,
-					elevation: 2,
-					shadowColor: "#00000044",
-					shadowOffset: { width: 1, height: 2 },
-					shadowOpacity: 0.4,
-					shadowRadius: 3,
+					height: 65,
+					elevation: 4,
+					shadowColor: colors.colors.shadow,
+					shadowOffset: { width: 2, height: -4 },
+					shadowOpacity: 0.2,
+					shadowRadius: 6,
 				},
 			}}
 		>
@@ -124,5 +120,5 @@ const styles = StyleSheet.create({
 		justifyContent: "center",
 		alignItems: "center",
 	},
-	touchable: { flex: 1, marginBottom: -30 },
+	touchable: { flex: 1, marginBottom: -15 },
 });

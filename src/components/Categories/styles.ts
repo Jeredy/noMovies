@@ -4,8 +4,8 @@ import { w } from "../../shared/styles/responsive";
 
 export const Container = styled.View`
 	flex: 1;
-	max-height: ${w(100)};
-	min-height: ${w(100)};
+	max-height: ${w(95)};
+	min-height: ${w(95)};
 	width: 100%;
 `;
 
@@ -19,7 +19,7 @@ export const ItemContainer = styled.TouchableOpacity<{ selected: boolean }>`
 	background: #fff;
 	border-width: ${w(1)};
 	border-color: #dbe6e6;
-	border-radius: 16px;
+	border-radius: ${w(10)};
 `;
 
 export const ItemText = styled.Text<{ selected: boolean }>`
@@ -31,7 +31,6 @@ export const ItemText = styled.Text<{ selected: boolean }>`
 export const Title = styled.Text`
 	font-weight: 600;
     color: ${colors.colors.text}
-	font-size: 20;
-	margin-left: ${w(15)};
-	margin: ${w(15)};
+	font-size: ${w(18)};
+	margin: ${w(15, 15, 10, 15)};
 `;

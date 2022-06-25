@@ -13,6 +13,8 @@ import Foundation from "react-native-vector-icons/Foundation";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
 
 Ionicons.loadFont();
+AntDesign.loadFont();
+MaterialIcons.loadFont();
 MaterialCommunityIcons.loadFont();
 
 export const Icons = {
@@ -38,8 +40,8 @@ interface IconProps {
 	style?: string;
 }
 
-const Icon: React.FC<IconProps> = ({ type, name, color, size = 23, style }) => {
-	const fontSize = 23;
+const Icon: React.FC<IconProps> = ({ type, name, color, size = 22, style }) => {
+	const fontSize = 22;
 	const Tag = type;
 
 	return (
