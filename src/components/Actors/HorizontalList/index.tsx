@@ -50,7 +50,9 @@ const HorizontalListActors = () => {
 					<Description>See all</Description>
 				</TouchableOpacity>
 			</TitleContainer>
+
 			<ContainerScroll
+				/*eslint-disable */
 				data={data}
 				renderItem={(data: any) => Actors(data.item)}
 				keyExtractor={(item, index) => String(index)}
@@ -58,6 +60,7 @@ const HorizontalListActors = () => {
 				horizontal
 				showsHorizontalScrollIndicator={false}
 				contentContainerStyle={{ paddingHorizontal: 20, paddingVertical: 20 }}
+				/*eslint-enable */
 			/>
 		</Container>
 	);

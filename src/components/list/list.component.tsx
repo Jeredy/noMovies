@@ -9,7 +9,7 @@ const ListComponent: React.FC<MoviesProps> = ({ title, data }) => {
 		<S.Container>
 			<S.TitleContainer>
 				<S.Title>{title}</S.Title>
-				<S.Touchable onPress={() => {}}>
+				<S.Touchable>
 					<S.SubTitle>See All</S.SubTitle>
 				</S.Touchable>
 			</S.TitleContainer>

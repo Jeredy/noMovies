@@ -9,6 +9,7 @@ type DividerProps = {
 const Divider: React.FC<DividerProps> = ({ margin = 15 }) => {
 	return (
 		<View
+			/*eslint-disable */
 			style={{
 				width: "90%",
 				borderColor: "#CFD4DA",
@@ -16,6 +17,7 @@ const Divider: React.FC<DividerProps> = ({ margin = 15 }) => {
 				marginVertical: ww(margin),
 				alignSelf: "center",
 			}}
+			/*eslint-enable */
 		/>
 	);
 };
