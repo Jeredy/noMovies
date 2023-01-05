@@ -13,14 +13,17 @@ const HomeStack = () => {
 	return (
 		<Stack.Navigator
 			initialRouteName="Home"
-			screenOptions={{ headerShown: false }}
+			screenOptions={{
+				headerShown: true,
+				animation: "fade",
+			}}
 		>
 			<Stack.Group>
 				<Stack.Screen
 					name="Home"
 					component={HomeScreen}
 					options={{
-						headerLeft: () => <Title>Recipes</Title>,
+						headerLeft: () => <Title>No Movies</Title>,
 						title: "",
 						headerRight: () => (
 							<MenuButton>
@@ -29,7 +32,11 @@ const HomeStack = () => {
 						),
 					}}
 				/>
-				<Stack.Screen name="Streaming" component={StreamingScreen} />
+				<Stack.Screen
+					name="Streaming"
+					component={StreamingScreen}
+					options={{ headerShown: false }}
+				/>
 			</Stack.Group>
 		</Stack.Navigator>
 	);

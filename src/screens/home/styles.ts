@@ -20,6 +20,7 @@ export const ScrollView = styled.ScrollView`
 	min-height: ${Dimensions.get("screen").height}px;
 	max-width: ${width};
 	margin-bottom: 200px;
+	padding-top: ${w(20)};
 `;
 
 export const ListContainer = styled.View`
