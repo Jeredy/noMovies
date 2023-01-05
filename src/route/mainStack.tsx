@@ -66,7 +66,7 @@ const TabButton = (props: any) => {
 	return (
 		<TouchableOpacity
 			onPress={onPress}
-			activeOpacity={1}
+			activeOpacity={0.8}
 			style={styles.touchable}
 		>
 			<Animatable.View ref={viewRef} duration={500} style={styles.container}>

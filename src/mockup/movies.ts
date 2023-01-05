@@ -9,20 +9,8 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "1234523",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
-	},
-	{
-		id: 20,
-		name: "Doctor Strange",
-		image:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXbfpmmyei-6Y4TQA9WrrpF-1KZeGAPdrc7AoHzVPVvhLHjpH4zzAzh75_hdZbC5wOrc&usqp=CAU",
-		video: "",
-		duration: "2 hours",
-		year: "2012",
-		category: "1234523",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 4753,
@@ -33,8 +21,8 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "1234523",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 34572,
@@ -45,8 +33,8 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "1234523",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 34782,
@@ -57,20 +45,20 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "1234523",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 47823,
 		name: "Doctor Strange",
 		image:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXbfpmmyei-6Y4TQA9WrrpF-1KZeGAPdrc7AoHzVPVvhLHjpH4zzAzh75_hdZbC5wOrc&usqp=CAU",
+			"https://images.pexels.com/photos/6255144/pexels-photo-6255144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		video: "",
 		duration: "2 hours",
 		year: "2012",
 		category: "1234523",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 48823,
@@ -81,20 +69,20 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "1234523",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 5684,
 		name: "Doctor Strange",
 		image:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXbfpmmyei-6Y4TQA9WrrpF-1KZeGAPdrc7AoHzVPVvhLHjpH4zzAzh75_hdZbC5wOrc&usqp=CAU",
+			"https://images.pexels.com/photos/6255144/pexels-photo-6255144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		video: "",
 		duration: "2 hours",
 		year: "2012",
 		category: "1234523",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 
 	{
@@ -106,20 +94,20 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "123463",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 200,
 		name: "Doctor Strange",
 		image:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXbfpmmyei-6Y4TQA9WrrpF-1KZeGAPdrc7AoHzVPVvhLHjpH4zzAzh75_hdZbC5wOrc&usqp=CAU",
+			"https://images.pexels.com/photos/6255144/pexels-photo-6255144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		video: "",
 		duration: "2 hours",
 		year: "2012",
 		category: "123463",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 1450,
@@ -130,20 +118,20 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "123463",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 2460,
 		name: "Doctor Strange",
 		image:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXbfpmmyei-6Y4TQA9WrrpF-1KZeGAPdrc7AoHzVPVvhLHjpH4zzAzh75_hdZbC5wOrc&usqp=CAU",
+			"https://images.pexels.com/photos/6255144/pexels-photo-6255144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		video: "",
 		duration: "2 hours",
 		year: "2012",
 		category: "123463",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 10734,
@@ -154,20 +142,20 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "123463",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 23720,
 		name: "Doctor Strange",
 		image:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXbfpmmyei-6Y4TQA9WrrpF-1KZeGAPdrc7AoHzVPVvhLHjpH4zzAzh75_hdZbC5wOrc&usqp=CAU",
+			"https://images.pexels.com/photos/6255144/pexels-photo-6255144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		video: "",
 		duration: "2 hours",
 		year: "2012",
 		category: "123463",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 12384,
@@ -178,20 +166,20 @@ export const moviesData = [
 		duration: "2 hours",
 		year: "2012",
 		category: "123463",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 	{
 		id: 23672,
 		name: "Doctor Strange",
 		image:
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScXbfpmmyei-6Y4TQA9WrrpF-1KZeGAPdrc7AoHzVPVvhLHjpH4zzAzh75_hdZbC5wOrc&usqp=CAU",
+			"https://images.pexels.com/photos/6255144/pexels-photo-6255144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 		video: "",
 		duration: "2 hours",
 		year: "2012",
 		category: "123463",
-		description:
-			"Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu.",
+		description: `\t\tEst eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Occaecat incididunt qui consectetur in esse eu commodo aute. Fugiat sint do elit exercitation id. Est eu elit Lorem eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Fusce gravida leo eu elit scelerisque vulputate. Sed velit enim, vehicula eu feugiat eu, auctor sed purus. Praesent laoreet egestas erat a mollis.`,
 	},
 ];
 

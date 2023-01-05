@@ -87,7 +87,9 @@ export const ForgotPasswordText = styled.Text`
 	color: #6f6f6e;
 `;
 
-export const ForgotPassawordButton = styled.TouchableOpacity``;
+export const ForgotPassawordButton = styled.TouchableOpacity.attrs({
+	activeOpacity: 0.8,
+})``;
 
 export const ForgotPasswordButtonText = styled.Text`
 	// font-family: "Lato-Bold";

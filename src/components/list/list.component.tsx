@@ -1,4 +1,3 @@
-import { useNavigation } from "@react-navigation/native";
 import React from "react";
 import { FlatList } from "react-native";
 import { MoviesProps } from "../../shared/types/streaming";
@@ -6,12 +5,11 @@ import CardComponent from "../card/card.component";
 import * as S from "./list.styles";
 
 const ListComponent: React.FC<MoviesProps> = ({ title, data }) => {
-	const { navigate } = useNavigation();
 	return (
 		<S.Container>
 			<S.TitleContainer>
 				<S.Title>{title}</S.Title>
-				<S.Touchable onPress={() => navigate("Streaming")}>
+				<S.Touchable onPress={() => {}}>
 					<S.SubTitle>See All</S.SubTitle>
 				</S.Touchable>
 			</S.TitleContainer>
@@ -24,6 +22,11 @@ const ListComponent: React.FC<MoviesProps> = ({ title, data }) => {
 							id={item?.id}
 							name={item?.name}
 							image={item?.image}
+							video={item?.video}
+							duration={item?.duration}
+							description={item?.description}
+							year={item?.year}
+							category={item?.category}
 						/>
 					)}
 					horizontal

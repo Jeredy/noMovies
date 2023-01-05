@@ -13,15 +13,14 @@ export const Container = styled.View`
 
 export const ScrollView = styled.ScrollView`
 	flex: 1;
-	min-height: ${Dimensions.get("screen").height}px;
 	max-width: ${width};
-	margin-bottom: 200px;
+	padding-bottom: ${w(580)};
 `;
 
 export const TopContainer = styled.View`
 	flex: 1;
 	min-width: 100%;
-	min-height: ${w(380)};
+	height: ${w(300)};
 	position: relative;
 	align-items: center;
 	justify-content: flex-end;
@@ -44,8 +43,8 @@ export const ImageBackground = styled.Image`
 
 export const Image = styled.Image`
 	flex: 0.7;
-	width: ${w(220)};
-	min-height: ${w(250)};
+	width: ${w(200)};
+	min-height: ${w(200)};
 	justify-content: center;
 	border-radius: ${w(6)};
 `;
@@ -60,19 +59,61 @@ export const TitleContainer = styled.View`
 	background: #fff;
 `;
 
-export const Title = styled.Text`
-	font-weight: 600;
-	color: ${colors.colors.text};
-	font-size: ${w(18)};
+export const StarContainer = styled.View`
+	flex: 1;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: ${w(60)};
 `;
 
-export const SearchIcon = styled(Icons.MaterialIcons).attrs({
+export const Title = styled.Text<{ isPageTitle?: boolean }>`
+	font-weight: 700;
+	color: ${colors.colors.text};
+	font-size: ${({ isPageTitle }) => w(isPageTitle ? 18 : 22)};
+	padding: ${({ isPageTitle }) => (isPageTitle ? w(0) : w(16, 0, 0, 16))};
+`;
+
+export const InfoContainer = styled.View`
+	flex: 1;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: ${w(10)};
+	padding: ${w(16)};
+`;
+
+export const InfoTextBold = styled.Text`
+	font-weight: 700;
+	font-size: ${w(16)};
+	color: ${colors.colors.text};
+	margin-top: ${w(6)};
+`;
+
+export const Description = styled.Text`
+	font-weight: 400;
+	color: ${colors.colors.text};
+	font-size: ${w(15)};
+`;
+
+export const DescriptionContainer = styled.View`
+	flex: 1;
+	justify-content: flex-start;
+	align-items: center;
+	padding: ${w(16)};
+`;
+export const Box = styled.View`
+	flex: 1;
+`;
+
+export const GoBackIcon = styled(Icons.MaterialIcons).attrs({
 	name: "arrow-back-ios",
 	size: 22,
 	color: colors.colors.text,
 })``;
 
-export const Touchable = styled.TouchableOpacity`
+export const Touchable = styled.TouchableOpacity.attrs({
+	activeOpacity: 0.8,
+})`
 	margin-left: ${w(10)};
 	position: absolute;
 	top: 0;

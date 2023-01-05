@@ -6,7 +6,7 @@ import ErrorSvg from "../../assets/icons/error.svg";
 import colors from "../../shared/styles/colors";
 
 export const Container = styled.TouchableOpacity.attrs({
-	activeOpacity: 1,
+	activeOpacity: 0.8,
 })<{
 	disabled?: boolean;
 	error?: boolean;

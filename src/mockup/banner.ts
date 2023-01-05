@@ -10,13 +10,14 @@ export const bannerItems: BannerModel[] = [
 	{
 		title: "Avengers End-Game",
 		text: "Duis excepteur laborum laborum excepteur anim. Eu esse labore duis est. Nisi sit cillum culpa cupidatat laborum minim sint eu et labore elit nulla ad. Consectetur minim incididunt excepteur laborum quis deserunt amet anim magna veniam. Sint exercitation esse do dolore incididunt. Do velit ea laboris deserunt incididunt do Lorem consectetur qui non laborum sint laboris id.",
-		image: "https://i.blogs.es/1aad84/marvel/1366_521.jpeg",
+		image:
+			"https://images.pexels.com/photos/3935026/pexels-photo-3935026.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 	},
 	{
-		title: "Item 3",
+		title: "Behind the scenes",
 		text: "Duis excepteur laborum laborum excepteur anim. Eu esse labore duis est. Nisi sit cillum culpa cupidatat laborum minim sint eu et labore elit nulla ad. Consectetur minim incididunt excepteur laborum quis deserunt amet anim magna veniam. Sint exercitation esse do dolore incididunt. Do velit ea laboris deserunt incididunt do Lorem consectetur qui non laborum sint laboris id.",
 		image:
-			"https://eloutput.com/app/uploads-eloutput.com/2021/04/fases-marvel-1.jpg",
+			"https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
 	},
 	{
 		title: "Batman 3",

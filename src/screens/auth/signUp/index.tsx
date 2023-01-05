@@ -29,7 +29,7 @@ import { signUpSchema } from "../../../shared/schemas/signUp";
 import ShadowComponent from "../../../components/Shadow";
 
 const SignUpForm: React.FC = () => {
-	const { navigate } = useNavigation();
+	const { navigate, goBack } = useNavigation();
 
 	const {
 		control,
@@ -41,7 +41,7 @@ const SignUpForm: React.FC = () => {
 
 	const [password, setPassword] = useState("");
 
-	const onSubmit = (data: any) => console.log(data);
+	const onSubmit = (data: any) => goBack();
 
 	const isValid = useMemo(() => {
 		if (!password) return false;

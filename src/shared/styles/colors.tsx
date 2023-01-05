@@ -1,6 +1,6 @@
 export default {
 	colors: {
-		primary: "#FF4155",
+		primary: "#D35B38",
 		primaryLite: "#FF415599",
 		secondary: "#3F3C56",
 		terciary: {
@@ -10,6 +10,7 @@ export default {
 		background: "#ffffff",
 		error: "#f31",
 		text: "#62656b",
+		black: "#000",
 		white: {
 			primary: "#fff",
 			secondary: "#ffffffaa",

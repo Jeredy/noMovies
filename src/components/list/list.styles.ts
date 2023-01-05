@@ -30,7 +30,9 @@ export const SubTitle = styled.Text`
 	color: ${colors.colors.primary};
 `;
 
-export const Touchable = styled.TouchableOpacity``;
+export const Touchable = styled.TouchableOpacity.attrs({
+	activeOpacity: 0.8,
+})``;
 
 export const CardContainer = styled.View`
 	display: flex;

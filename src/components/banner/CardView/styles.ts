@@ -3,7 +3,9 @@ import styled from "styled-components/native";
 import colors from "../../../shared/styles/colors";
 import { w, ww } from "../../../shared/styles/responsive";
 
-export const Container = styled.TouchableOpacity`
+export const Container = styled.TouchableOpacity.attrs({
+	activeOpacity: 0.8,
+})`
 	backgroundcolor: #fff;
 	border-radius: 16;
 	height: 200;

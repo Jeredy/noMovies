@@ -20,7 +20,7 @@ const Button: React.FC<Props> = (props) => {
 	} = props;
 
 	return (
-		<TouchableOpacity {...touchableOpacityProps}>
+		<TouchableOpacity {...touchableOpacityProps} activeOpacity={0.8}>
 			<Container type={type}>
 				<TitleText type={type}>{title}</TitleText>
 				{loading && <Loader />}

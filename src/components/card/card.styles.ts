@@ -31,4 +31,6 @@ export const Text = styled.Text`
 	color: ${colors.colors.text};
 `;
 
-export const Touchable = styled.TouchableOpacity``;
+export const Touchable = styled.TouchableOpacity.attrs({
+	activeOpacity: 0.8,
+})``;

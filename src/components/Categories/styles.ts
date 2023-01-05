@@ -9,7 +9,9 @@ export const Container = styled.View`
 	width: 100%;
 `;
 
-export const ItemContainer = styled.TouchableOpacity<{ selected: boolean }>`
+export const ItemContainer = styled.TouchableOpacity.attrs({
+	activeOpacity: 0.8,
+})<{ selected: boolean }>`
 	flex: 1;
 	min-width: 60px;
 	align-item: center;
