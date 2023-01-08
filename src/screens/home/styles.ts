@@ -17,9 +17,8 @@ export const Container = styled.View`
 
 export const ScrollView = styled.ScrollView`
 	flex: 1;
-	min-height: ${Dimensions.get("screen").height}px;
+	height: 100%;
 	max-width: ${width};
-	margin-bottom: 200px;
 	padding-top: ${w(20)};
 `;
 
